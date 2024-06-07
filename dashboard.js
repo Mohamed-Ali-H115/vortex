@@ -8,7 +8,7 @@ function loadServers() {
         type: "GET",
         url: "https://discord.com/api/v10/users/@me/guilds",
         headers: {
-            "Authorization": "Bearer YOUR_DISCORD_ACCESS_TOKEN"
+            "Authorization": "Bearer MTA3NTM3OTI4MzA4MzY2NTQ0MA.G_Verk.5B7jaQ_saVWlc_EKOAoJ2Ebvgg0jRGBMpevpNg"
         },
         success: function(response) {
             displayServers(response);
